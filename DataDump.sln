@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataDump", "src\DataDump\DataDump.csproj", "{60F2F715-0830-404D-ABC4-D14B1C01FBDB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{93E6D68B-8D95-41F8-B97C-325CD3B954BD}"
+	ProjectSection(SolutionItems) = preProject
+		build\framework.identifier.props = build\framework.identifier.props
+		build\Ilmerge.CSharp.targets = build\Ilmerge.CSharp.targets
+		build\property.props = build\property.props
+		build\SharedAssemblyInfo.CSharp.targets = build\SharedAssemblyInfo.CSharp.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{60F2F715-0830-404D-ABC4-D14B1C01FBDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60F2F715-0830-404D-ABC4-D14B1C01FBDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60F2F715-0830-404D-ABC4-D14B1C01FBDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60F2F715-0830-404D-ABC4-D14B1C01FBDB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8B5248BD-98B1-42CB-B712-1BADD35D497F}
+	EndGlobalSection
+EndGlobal

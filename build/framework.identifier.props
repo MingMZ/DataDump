@@ -1,0 +1,14 @@
+﻿<Project>
+  <PropertyGroup Condition="$(TargetFramework.StartsWith('netstandard'))">
+    <FrameworkIdentifier>NetStandard</FrameworkIdentifier>
+  </PropertyGroup>
+  <PropertyGroup Condition="$(TargetFramework.StartsWith('netcoreapp'))">
+    <FrameworkIdentifier>NetCoreApp</FrameworkIdentifier>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(FrameworkIdentifier)'==''">
+    <FrameworkIdentifier>Net</FrameworkIdentifier>
+  </PropertyGroup>
+  <PropertyGroup>
+    <DefineConstants>$(FrameworkIdentifier)</DefineConstants>
+  </PropertyGroup>
+</Project>
